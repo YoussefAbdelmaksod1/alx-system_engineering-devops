@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -p -1 --group-directories-first | tr '\n' ',' | sed 's/,$/\n/'
+ls -a -p -1 --group-directories-first | tr '\n' ',' | sed 's/,$/\n/' | sed 's/,/, /g'
