@@ -1,2 +1,11 @@
 #!/bin/bash
-cd ../
+
+# Store the current directory in a variable
+current_directory=$(pwd)
+
+# Change to the previous directory
+cd -
+
+# Print the old and new directories
+echo "Changed directory from $current_directory to $(pwd)"
+
