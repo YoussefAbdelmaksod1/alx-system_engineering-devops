@@ -1,1 +1,1 @@
-shell variables and expnasions
+alias for commands
